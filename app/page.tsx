@@ -109,7 +109,7 @@ export default function Home() {
                     <div className="w-1 bg-gradient-to-b from-orange-500 to-red-500 rounded-full flex-shrink-0"></div>
                     <div>
                       <h3 className="font-bold text-gray-900 mb-1 text-sm sm:text-base">
-                        Phát huy tối đa năng số trường
+                        Phát huy tối đa năng sở trường
                       </h3>
                       <p className="text-gray-600 text-xs sm:text-sm">
                         Giúp sinh viên khám phá và phát triển tiềm năng tối đa
@@ -128,10 +128,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col gap-3 pt-4 sm:pt-6">
-                <button className="px-6 sm:px-8 py-2.5 sm:py-3 bg-purple-600 text-white rounded-lg font-semibold text-sm sm:text-base hover:bg-purple-700 hover:shadow-lg transition flex items-center justify-center gap-2 group">
+                <button className="px-6 sm:px-8 py-2.5 sm:py-3 bg-purple-600 text-white rounded-lg font-semibold text-sm sm:text-base hover:bg-purple-700 hover:shadow-lg transition flex items-center justify-center gap-2 group" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSdMcgJLawdFiO2BKIuSm-V7zVLA90peN4UuiP97di2D_E2VFg/viewform","_bkank")}>
                   Gia nhập ngay <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
                 </button>
-                <button className="px-6 sm:px-8 py-2.5 sm:py-3 border-2 border-purple-600 text-purple-600 rounded-lg font-semibold text-sm sm:text-base hover:bg-purple-50 transition">
+                <button className="px-6 sm:px-8 py-2.5 sm:py-3 border-2 border-purple-600 text-purple-600 rounded-lg font-semibold text-sm sm:text-base hover:bg-purple-50 transition" onClick={() => window.open("https://zalo.me/0393366441","_bkank")}>
                   Tìm hiểu thêm
                 </button>
               </div>
@@ -567,7 +567,7 @@ export default function Home() {
             Gia nhập cộng đồng 1000+ sinh viên khởi nghiệp và nhận hỗ trợ toàn diện từ đào tạo, việc làm, đến đầu tư
             vốn.
           </p>
-          <button className="px-6 sm:px-8 py-3 bg-white text-purple-600 rounded-lg font-bold text-base sm:text-lg hover:bg-gray-100 hover:shadow-xl transition">
+          <button className="px-6 sm:px-8 py-3 bg-white text-purple-600 rounded-lg font-bold text-base sm:text-lg hover:bg-gray-100 hover:shadow-xl transition" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSdMcgJLawdFiO2BKIuSm-V7zVLA90peN4UuiP97di2D_E2VFg/viewform","_bkank")}>
             Gia nhập ngay
           </button>
         </div>
