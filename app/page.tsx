@@ -623,7 +623,7 @@ export default function Home() {
               <h4 className="font-bold mb-3 sm:mb-4 text-sm sm:text-base">Liên Hệ</h4>
               <ul className="space-y-2 text-xs sm:text-sm text-gray-400">
                 <li>Email: info@studentstartup.edu.vn</li>
-                <li>Phone: +84 (0) 123 456 789</li>
+                <li>Phone: +84 (0) 393 366 441</li>
               </ul>
             </div>
           </div>
